@@ -47,7 +47,7 @@ async function listenChannel(channelId) {
         }
    });
 }
-    await listenChannel(1844702414n)
+    await listenChannel(1977975687n)
 }
 
 run()
