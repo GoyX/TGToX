@@ -24,7 +24,7 @@ RUN npm install --only=production
 COPY . .
 
 # Set environment variable
-ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
+#ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
 ENV NODE_ENV production
 
 # Command to start the application with dumb-init
