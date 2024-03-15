@@ -8,7 +8,6 @@ import config from "./config.js";
 import tweet from "./twitter/tweet.js";
 const browser = await puppeteer.launch({
      headless: true,
-     executablePath: "./chrome/win64-122.0.6261.128/chrome-win64/chrome.exe",
      userDataDir: './userDate',
 });
 
